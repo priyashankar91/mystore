@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+#header-bottom {
+	background-color:#4F4F4F; 
+	padding-top:5px; 
+	padding-bottom:5px; 
+	padding-right:10px; 
+	font-family:verdana;
+	font-size:12px;
+	
+}
