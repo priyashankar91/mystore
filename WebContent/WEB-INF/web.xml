@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>webStore_temp</display-name>
+  <display-name>Mystore</display-name>
   <welcome-file-list>
     <welcome-file>index</welcome-file>
   </welcome-file-list>
@@ -23,16 +23,6 @@
   <servlet-mapping>
     <servlet-name>Register</servlet-name>
     <url-pattern>/Register</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>AdminLogin</display-name>
-    <servlet-name>AdminLogin</servlet-name>
-    <servlet-class>Controller.AdminLogin</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>AdminLogin</servlet-name>
-    <url-pattern>/AdminLogin</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -76,33 +66,23 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ListMobiles</display-name>
-    <servlet-name>ListMobiles</servlet-name>
-    <servlet-class>Controller.ListMobiles</servlet-class>
+    <display-name>Listfurniture</display-name>
+    <servlet-name>Listfurniture</servlet-name>
+    <servlet-class>Controller.Listfurniture</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ListMobiles</servlet-name>
-    <url-pattern>/ListMobiles</url-pattern>
+    <servlet-name>Listfurniture</servlet-name>
+    <url-pattern>/Listfurniture</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ListLaptops</display-name>
-    <servlet-name>ListLaptops</servlet-name>
-    <servlet-class>Controller.ListLaptops</servlet-class>
+    <display-name>Listgroceries</display-name>
+    <servlet-name>Listgoceries</servlet-name>
+    <servlet-class>Controller.Listgroceries</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ListLaptops</servlet-name>
-    <url-pattern>/ListLaptops</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ListComps</display-name>
-    <servlet-name>ListComps</servlet-name>
-    <servlet-class>Controller.ListComps</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ListComps</servlet-name>
-    <url-pattern>/ListComps</url-pattern>
+    <servlet-name>Listgroceries</servlet-name>
+    <url-pattern>/Listgroceries</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -123,16 +103,6 @@
   <servlet-mapping>
     <servlet-name>addToCart</servlet-name>
     <url-pattern>/addToCart</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>indexServlet</display-name>
-    <servlet-name>indexServlet</servlet-name>
-    <servlet-class>indexServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>indexServlet</servlet-name>
-    <url-pattern>/index</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -164,14 +134,4 @@
     <servlet-name>BuyCart</servlet-name>
     <url-pattern>/BuyCart</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>AddComment</display-name>
-    <servlet-name>AddComment</servlet-name>
-    <servlet-class>Controller.AddComment</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>AddComment</servlet-name>
-    <url-pattern>/AddComment</url-pattern>
-  </servlet-mapping>
-</web-app>
+ </web-app>
