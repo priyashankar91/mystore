@@ -11,7 +11,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>The Electronics Store</title>
+<title>MyStore</title>
 </head>
 <jsp:include page="header.jsp"></jsp:include>
 <body style="font-family:verdana; font-size:12px; background-image:url('img/halftone.png');">
@@ -33,7 +33,7 @@
 				<%	out.print("<input type=\"hidden\" name=\"ProdName\" value=\""+ProdList.get(i).getPid()+"\">");
 					out.print("Rs. "+ProdList.get(i).getPcost()+"<br>"); 
 				%>
-					<input type="submit" name="Product Page" value="View"></input>
+					<input type="submit" name="Product Page" value="View"/>
 				<% 	
 			}
 			}catch(IndexOutOfBoundsException e)
@@ -52,7 +52,7 @@
 				<%	out.print("<input type=\"hidden\" name=\"ProdName\" value=\""+ProdList.get(i+1).getPid()+"\" readonly>");
 					out.print("Rs. "+ProdList.get(i+1).getPcost()+"<br>"); 
 				%>
-					<input type="submit" name="Product Page" value="View" style="padding-bottom:0px;"></input>
+					<input type="submit" name="Product Page" value="View" style="padding-bottom:0px;"/>
 				<% 	
 			}
 			}catch(IndexOutOfBoundsException e)
@@ -72,7 +72,7 @@
 				<%	out.print("<input type=\"hidden\" name=\"ProdName\" value=\""+ProdList.get(i+2).getPid()+"\" readonly>");
 					out.print("Rs. "+ProdList.get(i+2).getPcost()+"<br>"); 
 				%>
-					<input type="submit" name="Product Page" value="View"></input>
+					<input type="submit" name="Product Page" value="View"/>
 				<% 	
 			}
 			}catch(IndexOutOfBoundsException e)
